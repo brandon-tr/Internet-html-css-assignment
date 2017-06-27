@@ -1,0 +1,180 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper{
+  padding:5%;
+}
+
+header{
+  margin-bottom: 4%;
+}
+
+    header img{
+      height: 15%;
+      position: absolute;
+      display: inline-block;
+      z-index: 1;
+      width: 10%;
+      bottom: 84%;
+      max-width: 80%;
+      min-width: 2%;
+    }
+
+    header span{
+      color: #26669C;
+    }
+
+    header h1 {
+      display: inline-block;
+      position: absolute;
+      bottom: 89%;
+      left: 16%;
+      }
+
+  menu{
+    position: relative;
+    border: 15px solid #3973A2;
+    background: #3973A2;
+    color: white;
+    bottom: 25px;
+    z-index: 0;
+  }
+
+  aside{
+    background: linear-gradient(to right, #E4E4E4, #E4E4E4,white);
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 15.1%;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+  }
+
+        aside p span {
+          color: red;
+        }
+
+        aside summary span {
+          color: #26669C;
+        }
+
+      #background {
+          position: relative;
+          width:100%;
+          padding-top: 10%;
+        }
+
+      #ninja{
+        position: absolute;
+        width: 40.5%;
+        bottom: 37%;
+        left: 29%;
+      }
+
+      aside {
+
+      }
+
+      .aside-img h2 {
+        position: relative;
+        bottom: 270px;
+        color: white;
+      }
+
+      .aside-img a{
+        position: relative;
+        bottom: 125px;
+        z-index: 2;
+        vertical-align: top;
+        color: white;
+        text-decoration: none;
+      }
+
+  #nav-left img{
+    width:9%;
+    margin-left: 25%;
+    display: inline-block;
+  }
+
+  #nav-left {
+    display: inline-block;
+    margin-bottom: 5%;
+  }
+  #nav-left a{
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+    text-decoration: none;
+  }
+
+  #nav-right{
+    float: right;
+    position: relative;
+    bottom: 40px;
+    left: 70px;
+  }
+
+  #nav-right ul li {
+    list-style-type: none;
+    position: relative;
+  }
+  #nav-right img {
+    position: relative;
+    bottom: -5px;
+    width: 15%;
+    right: 90px;
+  }
+
+  #num{
+    bottom:35px;
+    right: 28px;
+    font-size: 26px;
+    color: blue;
+  }
+
+  #details{
+    bottom: -13.5px;
+    font-size: 10px;
+  }
+
+  #dates{
+    bottom: 40px;
+    font-size: 10px;
+  }
+
+  main{
+    border-top: 3px solid grey;
+  margin-left: 20%;
+  margin-right: 10%;
+  }
+
+  main h2 {
+    color: #26669C;
+  }
+
+  main ul li, main ol li {
+    margin-left: 5%;
+    padding-bottom: 1%;
+  }
+
+  main img {
+    width:30%;
+    margin-left: 35%;
+  }
+
+  #htmlsec img{
+    width: 20%;
+    display: inline-block;
+  }
+
+  #htmlsec{
+    margin-left: 20%;
+    display: inline-block;
+    border: 3px solid blue;
+    border-bottom: 0px;
+    position: relative;
+    top: 78px;
+  }
